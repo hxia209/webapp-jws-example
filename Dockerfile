@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/jboss-webserver-3/webserver31-tomcat8-openshift
+FROM registry.redhat.io/jboss-webserver-5/webserver53-openjdk8-tomcat9-openshift-rhel7
 
 COPY sample.war /opt/webserver/webapps
 
